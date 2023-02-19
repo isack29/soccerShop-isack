@@ -1,5 +1,10 @@
 const producto = require("../models/products");
 
+
+
+//HOLAA, BEBE QUE MÁS
+
+
 //ver la lista de productos
 exports.getProducts = async (req, res, next) => {
   const products = await producto.find();
