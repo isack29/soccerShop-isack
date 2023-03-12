@@ -1,12 +1,27 @@
-
 import './App.css';
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header'
 
 function App() {
   return (
     <div className="App">
 
-      <h1>Tienda de ropa futbolera LaCancha - Store</h1>
-      <img src="./images/laCancha.png" alt="Logo"></img>
+      <Header/>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center>
+
+      <Footer/>
+
+     
+
     </div>
   );
 }
