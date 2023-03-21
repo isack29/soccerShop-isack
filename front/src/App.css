@@ -26,8 +26,28 @@ body {
   border-radius: 5px;
 }
 
+.btnLogin{
+  background-color: #28B463;
+  padding: .7rem;
+  color: white;
+  border-radius: .5rem;
+}
+
+.btnLogin:hover{
+  background-color: #2C3E50 ;
+  color:white;
+}
+
+.brandImg{
+  margin-left: 7rem;
+}
+
+.ml-input {
+  margin-left: 8.4rem;
+}
+
 nav {
-  background-color: #232f3e;
+  background-color:#145A32;
   padding: 1rem 1rem;
 }
 
@@ -41,8 +61,10 @@ nav {
 }
 f
 #search_field {
+
   height: 2.4rem;
   padding: 1rem;
+
 }
 
 #login_btn,
@@ -58,10 +80,10 @@ f
 }
 
 #cart_count {
-  background-color: #febd69;
+  background-color: #2C3E50 ;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 0.9rem;
 }
